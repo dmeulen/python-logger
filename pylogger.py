@@ -52,5 +52,5 @@ if __name__ == "__main__":
         if not line:
             break
         if args.cee:
-            line = '@cee: ' + line)
+            line = '@cee: ' + line
         log.info(line)

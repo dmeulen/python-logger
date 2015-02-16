@@ -52,7 +52,5 @@ if __name__ == "__main__":
         if not line:
             break
         if args.cee:
-            message = "{} {}".format('@cee:', line)
-        else:
-            message = line
-        log.info(message)
+            line = '@cee: ' + line)
+        log.info(line)
